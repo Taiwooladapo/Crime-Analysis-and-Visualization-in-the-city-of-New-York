@@ -4,7 +4,7 @@ This is a Data Analytics project to analyze and visualize crime rates in the cit
 1. Fetch crime data set from JSON file source.
 2. View the dataset using Python rogrammming language.
 3. Save the data to the MongoDB database.
-4. Implement an ETL pipeline using Luigi
+4. Implement an ETL pipeline using Luigi.
 5. Results of the pipeline are saved into a PostgreSQL database.
 6. Using Jupyter Notebook and writing queries from PostgreSQL for further visualizations.
 7. Provided suggestions on how to reduce the crime rate based on the insights gotten from the data.
