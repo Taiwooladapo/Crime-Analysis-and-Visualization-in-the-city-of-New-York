@@ -15,28 +15,35 @@ C. ETL Automation:
 The ETL (Extract, Transform, Load) process, a sequence of actions used to collect, modify, and load data, was automated. ETL is vital in combining data from multiple sources for analysis. Two ETL tools were used: Luigi and Apache Airflow. Luigi, developed by Spotify and open-sourced, is designed for building pipelines linked with sizable datasets that necessitate extended batch jobs. On the other hand, Apache Airflow enables automation, monitoring, and scheduling of processes. It is structured around Directed Acyclic Graphs (DAGs) representing workflow tasks. These tools extracted data from MongoDB, executed data cleaning (such as handling missing or duplicate values), and removed unnecessary columns. The structured data was then stored in a PostgreSQL database, created for well-defined schema and intricate queries. Python was selected as the programming language due to its popularity in the data science domain and its robust libraries for data analysis. The Jupyter Notebook environment was employed for data exploration and analysis. For data visualization, libraries like Matplotlib, Seaborn, and Plotly were used, generating a range of visualizations including scatter plots, histograms, and bar charts.
 # RESULTS AND EVALUATION
 The analysis of crime data from major cities in the United States; Los Angeles, New York, and Chicago led to significant findings:
+
 -CRIME TYPES WITH HIGH OCCURRENCE:
 (i) Los Angeles: The most frequent crime types were Battery (Simple Assault), Theft of Identity, and Burglary of Vehicle. Car theft was also consistent across cities, with high occurrence rates in Los Angeles.
 (ii) New York: Aggravated Assault and Larceny were the top crime types.
 (iii) Chicago: Theft, Battery, and Motor Vehicle Theft were the primary crime types. Assault was consistent across the three cities.
 These insights enable law enforcement agencies to focus resources on addressing the prevalent crime types, particularly emphasizing car theft and assault.
+
 -TIME OF YEAR WITH HIGH CRIME INCIDENTS:
 (i) Los Angeles: The first quarter of the year exhibited more crime incidents.
 (ii) Chicago: There was a spike in crime incidents from July to August, coinciding with the summer period and an increased population due to vacations and activities.
 This information allows police departments to allocate more resources during specific times, implement temporary measures, and design programs to engage students and youths constructively.
+
 -CRIME TRENDS OVER TIME:
 (i) Los Angeles: In 2022, crime rates were high, possibly attributed to increased police presence and innovative policing strategies.
 (ii) Chicago: Certain crime types, such as stalking and sexual offences, exhibited a rising trend, necessitating focused attention.
+
 -DEMOGRAPHICS AND CRIME:
 (i) Victims Age: Most victims in Los Angeles were between 20 and 50 years old, with a notable number under 10 years old.
 (ii) Victims Gender: Males were more frequently victimized in Los Angeles.
 (iii) Victims Descent: Over 80% of victims' descent in Los Angeles were Hispanic.
 These demographic insights offer a clearer picture of crime's impact on specific groups.
+
 -GUN-RELATED CRIMES:
 In Chicago, robberies and assaults with pistols were prevalent, highlighting the concerning issue of gun-related crimes and the potential link to gun ownership rates in the US.
+
 -TEMPORAL TRENDS:
 (i) Crime occurrences increased over the years in Los Angeles.
 (ii) In New York, violent crimes increased in 2020 compared to the previous year.
+
 # TOOLS USED
 1. Python: Python programming language serves as the primary programming tool for data manipulation, analysis, and visualization. Its extensive libraries and frameworks for data science and analytics contributed to efficient data handling.
 2. Luigi: Luigi, a Python-based tool developed by Spotify, played a key role in automating the Extract, Transform, Load (ETL) pipeline. It was employed to create workflows and pipelines for managing the data extraction, cleaning, and loading processes.
